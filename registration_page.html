@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Registration Form</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+
+		<div class="wrapper" style="background-image: url('assets/bg-registration-form-1.jpg');">
+			<div class="inner">
+				<div class="image-holder">
+					<img src="assets/registration-form-1.jpg" alt="">
+				</div>
+				<form action="">
+					<h3>Registration Form</h3>
+					<div class="form-group">
+						<input type="text" placeholder="First Name" class="form-control">
+						<input type="text" placeholder="Last Name" class="form-control">
+					</div>
+					<!-- <div class="form-wrapper">
+						<input type="text" placeholder="Username" class="form-control">
+						<i class="zmdi zmdi-account"></i>
+					</div> -->
+					
+					<div class="form-wrapper">
+						<select name="" id="" class="form-control">
+							<option value="" disabled selected>Branch</option>
+							<option value="male">CSE</option>
+							<option value="femal">IT</option>
+							<option value="femal">CSIT</option>
+							<option value="femal">CS</option>
+							<option value="femal">ECE</option>
+							<option value="other">EN</option>
+							<option value="femal">ME</option>
+							<option value="femal">CIVIL</option>
+						</select>
+						<i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
+					</div>
+					<div class="form-wrapper">
+						<select name="" id="" class="form-control">
+							<option value="" disabled selected>Year</option>
+							<option value="male">1</option>
+							<option value="femal">2</option>
+							<option value="femal">3</option>
+							<option value="femal">4</option>
+						
+						</select>
+						<i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
+					</div>
+					<div class="form-wrapper">
+						<input type="text" placeholder="Email Address" pattern=".+@kiet\.edu"  oninvalid="this.setCustomValidity('Enter valid KIET email ID')"
+						oninput="this.setCustomValidity('')" title="Please enter valid KIET email ID" class="form-control">
+						<i class="zmdi zmdi-email"></i>
+					</div>
+					<div class="form-wrapper">
+						<input type="password" placeholder="Password" class="form-control">
+						<i class="zmdi zmdi-lock"></i>
+					</div>
+					<div class="form-wrapper">
+						<input type="password" placeholder="Confirm Password" class="form-control">
+						<i class="zmdi zmdi-lock"></i>
+					</div>
+					<button>Register
+						<i class="zmdi zmdi-arrow-right"></i>
+					</button>
+				</form>
+			</div>
+		</div>
+		
+	</body>
+</html>
